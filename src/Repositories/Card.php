@@ -6,7 +6,7 @@
  * Time: 01:50 م
  */
 
-namespace Adwair\PropertyFinder\Repositories;
+namespace Adwairi\PropertyFinder\Repositories;
 
 
 class Card
