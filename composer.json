@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Adwairi\\propertyfinder\\": "src",
+            "Adwairi\\PropertyFinder\\": "src",
             "Adwairi\\Tests\\": "tests"
         }
     }
