@@ -9,6 +9,10 @@
 namespace Adwairi\PropertyFinder;
 
 
+/**
+ * Class OutPut
+ * @package Adwairi\PropertyFinder
+ */
 class OutPut
 {
     /**

@@ -12,6 +12,10 @@ namespace Adwairi\Tests;
 use Adwairi\PropertyFinder\Sorter;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * Class Tests
+ * @package Adwairi\Tests
+ */
 class Tests extends TestCase
 {
     /**

@@ -9,6 +9,10 @@
 namespace Adwairi\PropertyFinder;
 use Adwairi\PropertyFinder\Repositories\Card;
 
+/**
+ * Class Sorter
+ * @package Adwairi\PropertyFinder
+ */
 class Sorter
 {
     /**
@@ -29,7 +33,7 @@ class Sorter
     /**
      * Build the journey cards
      *
-     * @return HTML for journey description
+     * @return string
      */
     public function buildJourney()
     {
@@ -39,7 +43,7 @@ class Sorter
         $sorted_cards = $this->recursiveSort($cards_array, $cards_count, 0);
         $output    = new OutPut();
 
-        return $output->makeHTML($sorted_cards);
+        return $output->makeHtml($sorted_cards);
     }
 
     /**

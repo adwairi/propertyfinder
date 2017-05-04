@@ -9,6 +9,10 @@
 namespace Adwairi\PropertyFinder\Repositories;
 
 
+/**
+ * Class Card
+ * @package Adwairi\PropertyFinder\Repositories
+ */
 class Card
 {
     /**

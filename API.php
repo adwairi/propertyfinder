@@ -21,12 +21,20 @@ use Adwairi\PropertyFinder\Sorter;
 class Trip{
 
     private $trip;
+
+    /**
+     * Trip constructor.
+     * @param array $cards
+     */
     public function __construct($cards = [])
     {
         $sorter   = new Sorter($cards);
         $this->trip = $sorter->buildJourney();
     }
 
+    /**
+     * @return \Adwairi\PropertyFinder\HTML
+     */
     public function getTrip(){
         return $this->trip;
     }
